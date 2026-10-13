@@ -40,7 +40,7 @@ Fourteen Python tests and seven Node tests cover source validation, action owner
 
 ## Team and submission
 
-Rémi Barbier and Pauline are the planned team; Nicolas Trancart's participation remains to be confirmed. Confirm full names and actual contributions before submitting.
+Team: Rémi Barbier and Pauline Perrotton. Rémi: prototype, source setup and documentation, prepared with Codex. Pauline: test cases and response validation. The reported scores remain development evidence, not independent human acceptance.
 
 The assignment asks for a 3–5 minute demo video and a solution/evidence appendix. The current v2 video is 3:29 and demonstrates the working local app. The repository and release are shared for team review; they are not an academic submission.
 

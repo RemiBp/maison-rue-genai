@@ -11,8 +11,8 @@ remain local development evidence, not a benchmark of the cloud model.
 
 TEAM
 Rémi Barbier: prototype, sources, tests and documentation prepared with Codex.
-Pauline: planned teammate; confirm surname and actual contribution with her.
-Nicolas Trancart: participation pending confirmation. Case allows 1–3 students.
+Pauline Perrotton: test cases and response validation.
+Team: Rémi Barbier and Pauline Perrotton. Case allows 1–3 students.
 
 LOCAL RUN
 Python 3 and Codex CLI installed and authenticated.
@@ -57,7 +57,7 @@ VIDEO AND SUBMISSION
 Two required items: a 3–5 minute demo video and solution/evidence appendix.
 The final v2 MP4 is 3:29, 1920×1080, with narration and captions. The video
 README reports real recorded local runs for M5, V8 and M3, labelled shortened
-loading intervals. Confirm team names/contributions and listen through once
+loading intervals. Listen through once
 before submitting. The video files are separate from the solution archive.
 The deadline supplied by Rémi is today at 18:00 Paris time.
 Nothing has been submitted or messaged to classmates or the professor.
