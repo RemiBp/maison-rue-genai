@@ -1,0 +1,9 @@
+{
+  "evaluation_sha256": "f50c5dff26cee861c24397b02f08fcce6529ea65459b678ce8c7feaf1f9b5001",
+  "reviewed_at": "2026-10-13T10:30:19.201287+00:00",
+  "reviewer": "Codex content inspection during preparation; not independent human support acceptance",
+  "primary_measure": "Complete supported reply with correct clarification/referral and no unauthorised commitment",
+  "baseline_pass": 3,
+  "prototype_pass": 12,
+  "n": 12
+}

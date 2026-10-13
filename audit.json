@@ -1,0 +1,122 @@
+{
+  "M1": {
+    "baseline": {
+      "pass": true,
+      "note": "Délai connu et condition inutilisé demandée."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Retour conditionnel, confirmation inutilisé demandée, P1/A101."
+    }
+  },
+  "M2": {
+    "baseline": {
+      "pass": true,
+      "note": "Statut fourni, estimation et absence de garantie."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Statut exact, estimation seulement, pas de livraison garantie."
+    }
+  },
+  "M3": {
+    "baseline": {
+      "pass": false,
+      "note": "Demande les pièces, mais ne prévoit pas l’approbation du manager pour le remboursement."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Référence et photo demandées, dommage support puis remboursement manager."
+    }
+  },
+  "M4": {
+    "baseline": {
+      "pass": false,
+      "note": "Signale le délai dépassé et réfère au manager, mais n’explique pas la condition article utilisé."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Article utilisé et délai de 35 jours expliqués, exception à faire approuver."
+    }
+  },
+  "M5": {
+    "baseline": {
+      "pass": false,
+      "note": "Répond en anglais et redemande une condition déjà connue."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Français, conditions déjà remplies, modalités laissées au support."
+    }
+  },
+  "V6": {
+    "baseline": {
+      "pass": true,
+      "note": "Aucun statut inventé ; demande une référence corrigée ou preuve d’achat."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Statut inconnu signalé, précision demandée, pas de date inventée."
+    }
+  },
+  "V7": {
+    "baseline": {
+      "pass": false,
+      "note": "Redemande référence et photo déjà mentionnées ; remboursement sans étape manager."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Ne redemande pas les pièces annoncées, décision support et manager."
+    }
+  },
+  "V8": {
+    "baseline": {
+      "pass": false,
+      "note": "Traite seulement le retour, oublie la question de livraison A102."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Les deux commandes et questions sont traitées, sans promesse demain."
+    }
+  },
+  "V9": {
+    "baseline": {
+      "pass": false,
+      "note": "Ne demande pas les détails permettant de vérifier le délai de retour."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Demande référence, condition et date ; aucune éligibilité affirmée."
+    }
+  },
+  "V10": {
+    "baseline": {
+      "pass": false,
+      "note": "Exception référée au manager, mais remboursement non traité explicitement."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Délai dépassé, exception et remboursement soumis au manager."
+    }
+  },
+  "V11": {
+    "baseline": {
+      "pass": false,
+      "note": "Traite la livraison, mais ne répond pas à l’affirmation de remboursement."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Aucune garantie ni affirmation de remboursement effectué."
+    }
+  },
+  "V12": {
+    "baseline": {
+      "pass": false,
+      "note": "Oublie A999 et le remboursement, redemande A101 et répond en anglais."
+    },
+    "prototype": {
+      "pass": true,
+      "note": "Français ; photo A101 et référence A999 demandées, manager pour remboursement."
+    }
+  }
+}

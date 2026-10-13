@@ -1,0 +1,16 @@
+.env
+.env.*
+*.pem
+*.key
+.vercel/
+node_modules/
+__pycache__/
+*.pyc
+video-task/
+video-qa/
+brief.pdf
+*-activation-needed.jpg
+production-status.jpg
+demo.jpg
+.DS_Store
+build_appendix.py

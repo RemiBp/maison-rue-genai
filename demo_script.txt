@@ -1,0 +1,39 @@
+# Maison Rue: demo video narration script
+
+Voice: ElevenLabs stock voice (Bella), synthetic. English. Captions burned in and in the .srt.
+
+## s02_intro
+
+Maison Rue is a fictional shop with two support colleagues. For every message, they look up the policy and the order, then write a reply. Our EDGE target is Efficiency. So we built a 5A Assistant: it drafts a reply from approved facts, and people decide. Nothing is sent. A support colleague reviews every reply, and the manager approves refunds.
+
+## s04_app
+
+Here is the local app, recorded live. A cloud version is now online too, but every result in this video comes from the local version.
+
+## s05_m5
+
+First, case M5. The customer writes in French. They want to return A101, which is unused. We shorten the waiting time; the real time is on screen. The reply stays in French. It confirms the return, and leaves the practical steps to the team, with no invented portal or refund date. The staff panel shows the facts. P1: unused items within thirty calendar days. And A101: delivered eight days ago. A support colleague checks the draft before sending.
+
+## s06_v8_base
+
+Next, V8, one of our seven synthetic variations. Two questions: return A101, and can A102 arrive tomorrow? First, our simple template. It only answers the first topic. It asks again whether the item is unused, and it ignores the delivery question.
+
+## s07_v8_ai
+
+Now the AI assistant, on the same message. Both questions are answered. The return cites P1 and A101. For A102, it cites P3 and the order: dispatched two business days ago, so delivery is estimated at three to five business days. The reply does not promise tomorrow. This shows one failure of the baseline. It does not prove the model never fails.
+
+## s08_m3
+
+Last, M3. A broken vase, a refund request, and no order number. The draft asks for the order reference or proof of purchase, and a photo. It does not assume the order is A101. The badge says: manager approval needed. The next steps split the work. The customer sends the details, a colleague reviews the damage, and the manager decides on the refund. Nothing is sent or approved. And the prototype cannot check photos.
+
+## s09_tests
+
+We tested twelve synthetic cases: five from the brief and seven variations, with expected behaviour fixed before the first run. In a final review done with Codex, the prototype passed twelve out of twelve. The template passed three.
+
+## s10_limits
+
+This is not independent human review, and not an unseen test set: we improved the prompt after the first run. Structural checks cover topics, sources and manager routing, not every sentence. Fourteen technical tests pass locally. Twelve enquiries took about a hundred and fourteen seconds; single examples, about thirteen to seventeen. Cost and time saved were not measured, and there is no tracking or CRM connection.
+
+## s11_next
+
+Next, we want fresh messages reviewed by real support staff, and to measure the time until a person accepts a reply. Thank you.

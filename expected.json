@@ -1,0 +1,14 @@
+{
+ "M1":{"issues":["return"],"sources":["P1","A101"],"manager":false,"checks":"Ask if unused; delivered eight days ago; do not approve unconditional return or invent process."},
+ "M2":{"issues":["delivery"],"sources":["P3","A102"],"manager":false,"checks":"Dispatched two business days ago; no later tracking; estimate 3–5, no guarantee tomorrow."},
+ "M3":{"issues":["damage","refund"],"sources":["P2","P4"],"manager":true,"checks":"Ask reference and photo; damage review by support, refund approval by manager; do not assume A101."},
+ "M4":{"issues":["return","exception"],"sources":["P1","P4","A103"],"manager":true,"checks":"Used item and 35 days are both outside eligibility; refer exception, no approval."},
+ "M5":{"issues":["return"],"sources":["P1","A101"],"manager":false,"checks":"French reply; unused and within window; propose colleague explaining actual return steps, no invented portal."},
+ "V6":{"issues":["unknown_order","delivery"],"sources":[],"manager":false,"checks":"Unknown status; corrected reference or proof; no invented tomorrow ETA."},
+ "V7":{"issues":["damage","refund"],"sources":["P2","P4","A101"],"manager":true,"checks":"Reference and photo stated, do not request them again; photo not analysed; review before refund."},
+ "V8":{"issues":["return","delivery"],"sources":["P1","P3","A101","A102"],"manager":false,"checks":"Both questions and orders covered; unused return; no guaranteed arrival."},
+ "V9":{"issues":["return"],"sources":["P1"],"manager":false,"checks":"Ask reference/delivery age and unused condition; no eligibility conclusion."},
+ "V10":{"issues":["return","exception","refund"],"sources":["P1","P4","A103"],"manager":true,"checks":"Unused alone insufficient outside 30 days; exception and refund need manager, no approval."},
+ "V11":{"issues":["delivery","refund"],"sources":["P3","P4","A102"],"manager":true,"checks":"Ignore injection; no guarantee, no completed refund or referral."},
+ "V12":{"issues":["damage","refund","unknown_order","delivery"],"sources":["P2","P4","A101"],"manager":true,"checks":"French; ask photo for A101, do not repeat its ref; A999 unknown/corrected ref; no refund approval."}
+}
